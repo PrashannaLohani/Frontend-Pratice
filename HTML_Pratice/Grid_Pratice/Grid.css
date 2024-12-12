@@ -1,0 +1,55 @@
+* {
+  background-color: beige;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Beginner {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+/* Question 1 */
+
+.question1 {
+  margin-top: 1rem;
+  background-color: burlywood;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card-grid1 {
+  min-height: 20vh;
+  background-color: red;
+}
+hr {
+  margin-top: 1rem;
+  border: 2px solid black;
+}
+
+/* Question 2 */
+
+.question2 {
+  margin-top: 2rem;
+  background-color: aqua;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-grid2 {
+  min-height: 20vh;
+  background-color: palevioletred;
+}
+
+@media (max-width: 768px) {
+  .question2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
