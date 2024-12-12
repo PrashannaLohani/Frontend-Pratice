@@ -6,7 +6,7 @@
 }
 
 .Beginner {
-  border: 1px solid black;
+  border: 3px dotted black;
   margin: 1rem;
   padding: 1rem;
   min-height: 100vh;
@@ -52,4 +52,94 @@ hr {
   .question2 {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+/* Question 3 */
+
+.question3 {
+  margin-top: 2rem;
+  background-color: brown;
+  padding: 1rem;
+}
+.card-grid3 {
+  min-height: 20vh;
+  background-color: darkgray;
+}
+
+/* Intermediate */
+
+.Intermediate {
+  border: 3px dotted black;
+  margin: 1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+/* Question4 */
+
+.question4 {
+  margin-top: 2rem;
+  background-color: darkkhaki;
+  padding: 1rem;
+}
+.card-grid4 {
+  min-height: 20vh;
+  background-color: pink;
+}
+
+/* Question5 */
+
+.question5 {
+  margin-top: 2rem;
+  background-color: darkorange;
+  padding: 1rem;
+}
+.card-grid5 {
+  min-height: 20vh;
+  background-color: lightblue;
+}
+
+/* Question6 */
+
+.question6 {
+  margin-top: 2rem;
+  background-color: lightgreen;
+  padding: 1rem;
+}
+.card-grid6 {
+  min-height: 20vh;
+  background-color: darkgreen;
+}
+
+/* Advance Section */
+
+.Advance {
+  border: 3px dotted black;
+  margin: 1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+/* Question 7 */
+
+.question7 {
+  margin-top: 2rem;
+  background-color: lightgreen;
+  padding: 1rem;
+}
+.card-grid7 {
+  min-height: 20vh;
+  background-color: darkgreen;
+}
+
+/* Question 8 */
+
+.question8 {
+  margin-top: 2rem;
+  background-color: darkgray;
+  padding: 1rem;
+}
+.card-grid8 {
+  min-height: 20vh;
+  background-color: beige;
 }
