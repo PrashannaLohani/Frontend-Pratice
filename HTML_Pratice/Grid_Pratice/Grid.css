@@ -62,8 +62,29 @@ hr {
   padding: 1rem;
 }
 .card-grid3 {
-  min-height: 20vh;
+  min-height: 100vh;
+  padding: 1rem;
   background-color: darkgray;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "hr hr hr hr"
+    "sb cnt cnt cnt"
+    "sb cnt cnt cnt"
+    "fr fr fr fr";
+}
+.card-grid3 #Header {
+  grid-area: hr;
+  min-height: 10vh;
+}
+.card-grid3 #Sidebar {
+  grid-area: sb;
+}
+.card-grid3 #Content {
+  grid-area: cnt;
+}
+.card-grid3 #Footer {
+  grid-area: fr;
 }
 
 /* Intermediate */
